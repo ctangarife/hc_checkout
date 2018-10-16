@@ -1,0 +1,56 @@
+<?php
+
+/**
+ *Módulo para la recurrencia
+ * Implement hook_menu()
+ */
+
+function hc_checkout_menu() {
+  return array(
+  	'checkout/menzies/checkout' => array(
+  	'page callback' => 'checkoutTpl',
+  	'access arguments' => TRUE,
+  	'access callback' => TRUE,
+  	'type' => MENU_CALLBACK,
+    ),
+    
+  );
+}
+
+//Función para alterar el comportamiento de una url
+
+function hc_checkout_url_inbound_alter(&$path, $original_path, $path_language) {
+  /*if ($path=='checkout/968') {
+  		drupal_goto('checkout/menzies/checkout');
+  }*/ 
+}
+
+//Función para cargar los temas
+
+function hc_checkout_theme($existing, $type, $theme, $path){
+    return array(
+      'cpcheckout' => array(
+        'template' => 'theme/chekcout'
+      ),
+      'formreview' => array(
+        'template' => 'theme/formreview'
+      ),
+  );
+}
+
+function checkoutTpl(){
+  $form = drupal_get_form('commerce-checkout-form-checkout');
+  $variables['form']=$form;
+  //$carritoR=uc_cart_get_contents();
+	return theme('cpcheckout',$variables);
+}
+
+function hc_form_alter(&$form, &$form_state, $form_id){
+  printVar($form_id);
+}
+
+/*Función para hacer depuración del código*/
+function printVar( $variable, $title = "" ){
+    $var = print_r( $variable, true );
+    echo "<pre style='background-color:#dddd00; border: dashed thin #000000;'><strong>[$title]</strong> $var</pre>";
+}

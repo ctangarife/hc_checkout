@@ -1,0 +1,4 @@
+name = HC Checkout
+description = Module for change the checkout
+package = Modulos Customs HC
+core = 7.x

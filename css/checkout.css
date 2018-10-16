@@ -1,0 +1,355 @@
+/*recurrencia.css*/
+
+body p{
+	font-size: 1.6rem;
+}
+
+input, option{
+	font-size: 2rem;
+}
+
+legend{
+	border: none!important;
+	color:#20b7c8;
+}
+
+label{
+	font-size: 2rem!important;
+	font-weight: 300!important;
+	letter-spacing: 0.1rem;
+}
+
+label span{
+	font-size: 1.5rem;
+}
+
+select{
+	border: 0;
+}
+
+*:focus { outline: none; }
+
+.btn-recurrence{
+	display: inline-block;
+    background-color: #20b7c8;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 2rem 1rem !important;
+    padding: 1.3rem 1rem;
+    transition: all ease-in-out .3s;
+    vertical-align: bottom;
+    width: 51%;
+}
+
+.alert{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.btn-recurrence:hover{
+	background-color: #1995a2; 
+}
+
+.btn-recurrence-dos{
+	display: inline-block;
+    background-color: #20b7c8;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 2rem 1rem;
+    padding: 1.3rem 1rem;
+    transition: all ease-in-out .3s;
+    vertical-align: bottom;
+    width: 42%;
+}
+
+.btn-recurrence-dos:hover{
+	background-color: #1995a2;
+}
+
+.btn-recurrence-tres{
+	display: inline-block;
+    background-color: #20b7c8;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+    padding: 1.3rem 1rem;
+    transition: all ease-in-out .3s;
+    vertical-align: bottom;
+    width: 42%;
+}
+
+.btn-recurrence-tres:hover{
+	background-color: #1995a2;
+}
+
+.btn-active{
+    background-color: #1995a2;
+}
+
+.canasta{
+	margin-top: 8%;
+}
+
+.cedulaFactura{
+	width: 100% !important
+}
+
+.cont{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 2rem 0;
+}
+
+.cont-btns{
+	padding: 0 0 3rem 0;
+}
+
+.cont p{
+	margin: 2rem 0;
+}
+
+.cont-pago{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.cont-pasarela{
+	position: relative;
+    display: block;
+    float: left;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.cont-pasarela label{
+    float: left;
+}
+
+.cont-pasarela img{
+	margin-left: 2rem;
+    display: block;
+    float: left;
+}
+
+.cont-select{
+	border: 1px solid #b0b0b0;
+	background-color: #f5f5f5;
+	padding: 0 0.5rem;
+}
+
+.cont-select-dir{
+	border: 1px solid #b0b0b0;
+	background-color: #ffffff;
+	padding: 0 0.5rem;
+}
+
+.cupon {
+    display: inline-block;
+    float: none;
+    margin: 2rem 3% 1.2rem;
+    text-align: left;
+    width: 55%;
+}
+
+.cupon-2 {
+    display: inline-block;
+    float: none;
+    margin: 2rem 3% 1.2rem;
+    text-align: left;
+    width: 60%;
+}
+
+.cupon input{
+	text-align: center;
+}
+
+.cupon input:focus{
+	border-color: #20b7c8;
+}
+
+.form-group {
+    float: left;
+    margin: 0.7rem 3%;
+    text-align: left;
+    width: 44%;
+}
+
+.form-group-select {
+    margin: 2rem 3%;
+    width: 94%;
+}
+
+.form-group input:focus{
+	border-color: #20b7c8;
+}
+
+.form-control-p{
+	background-color: #f5f5f5;
+	color: #737373;
+    box-shadow:none;
+    height: 50px;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.form-control-n{
+	background-color: #f5f5f5;
+    box-shadow:none;
+    color: #737373;
+    height: 50px;
+    padding: 0 1.5rem;
+    width: 47%;
+}
+
+select.form-control-p{
+	background-color: transparent;
+	height: 48px;
+}
+
+.form-control-select{
+	background: transparent;
+    height: 50px;
+    width: 100%;
+}
+
+.help-block{
+	font-size: 1.7rem;
+    margin: 0!important;
+}
+
+.iva{
+	background-color: #f2f2f2;
+}
+
+.table{
+	text-align: center;
+}
+
+.table>thead>tr>th{
+	text-align: center;
+}
+
+.table>tbody>tr>td{
+	vertical-align: middle;
+}
+
+.table-cupon{
+	width: 94%;
+    margin: 0 auto;
+}
+
+.text-title-recurrence{
+	color:#20b7c8;
+	font-size: 2.5rem;
+	margin: 3rem auto 2rem !important;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+    float: left;
+}
+
+.text-dest{
+	font-size: 2rem;
+	margin: 0!important;
+	text-align: left;
+}
+
+.checkbox, .radio{
+	display: inline-block!important;
+}
+
+.checkbox label, .radio label{
+	vertical-align: top;
+}
+
+.text-check{
+	display: inline-block;
+	font-size: 2rem;
+	width: 57%;
+}
+
+.text-check p{
+	margin: 0;
+}
+
+.label-n-tarjeta label{
+	display: block;
+}
+
+.m-der{
+	margin-right: 4%;
+}
+
+@media (max-width: 768px){
+	label{
+		margin-bottom: 5px;
+	}
+
+	.btn-recurrence{
+		width: 85%;
+	}
+
+	.btn-recurrence-dos{
+		width: 90%;
+		margin: 1rem 0 !important;
+	}
+
+	.btn-recurrence-tres{
+		width: 90%;
+	}
+
+	.canasta{
+		margin-top: 0; 
+	}
+
+	.cont{
+		margin: 0 5%;
+	}
+
+	.cont-btns{
+		margin: 1rem 0 3rem 0;
+	}
+
+	.cupon{
+		width: 90%;
+	}
+
+	.cupon-2{
+		width: 90%;
+	}
+
+	.form-group {
+	    display: block;
+	    margin: 1rem 0;
+	    width: 100%;
+	}
+
+	.form-group-select {
+	    margin: 2rem 0;
+	    width: 100%;
+	}
+
+	.form-control-n{
+		width: 100%;
+	}
+
+
+	.cont-form{
+		margin: 0 0%!important;
+	}
+
+	.m-der {
+	    margin:0 0 15px 0;
+	}
+
+	.table-cupon{
+		width: 100%;
+	}
+
+}
